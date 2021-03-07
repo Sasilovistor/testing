@@ -13,4 +13,4 @@ jobs:
           PROJECT: Tracking
           COLUMN: Triage
           CHECK_ORG_PROJECT: true
-          GITHUB_TOKEN: ${{secrets.ORG_SECRET}}
+          GITHUB_TOKEN: ${{secrets.SECRET_NAME}}
