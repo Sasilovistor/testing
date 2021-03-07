@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened]
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.ORG_SECRET }}
 
 jobs:
   assign_one_project:
