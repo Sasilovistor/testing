@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened]
 env:
-  ORG_SECRET: ${{ secrets.MY_GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   assign_one_project:
@@ -17,3 +17,4 @@ jobs:
       with:
         project: 'https://github.com/orgs/Sasilovistor/projects/1'
         column_name: 'Triage'
+
